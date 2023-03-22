@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+// import zoro from "./zoro.png"
+import "./App.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+const App = () => {
+    return (
+        <div className="mainDiv">
+            <div className="navBar">
+            {/* <img src={zoro} className="pic" alt="zoro pic"/> */}
+            <div className="title"><h3>RORONOA ZORO</h3></div>
+              <nav>
+              <a href="#">HOME</a>
+              <a href="#">ABOUT</a>
+              <a href="#">HIGLIGHTS</a>
+              </nav>
+            </div>
+         
+            
+        </div>
+    )
 }
 
 export default App;
